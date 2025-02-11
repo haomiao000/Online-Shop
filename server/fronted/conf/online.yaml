@@ -1,0 +1,12 @@
+hertz:
+  address: ":8082"
+  enable_pprof: true
+  enable_gzip: true
+  enable_access_log: true
+  log_level: info
+  log_file_name: "log/hertz_dev.log"
+  log_max_size: 10
+  log_max_backups: 50
+  log_max_age: 3
+  registry_addr: "127.0.0.1:8500"
+  metrics_port: ":8090"
